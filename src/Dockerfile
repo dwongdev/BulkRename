@@ -5,6 +5,7 @@ ARG VERSION=1.0.0.0
 
 COPY ./BulkRename/BulkRename.csproj /build/
 COPY ./Directory.Build.props /build/
+COPY ./Directory.Packages.props /build/
 
 RUN dotnet restore ./build/BulkRename.csproj
 

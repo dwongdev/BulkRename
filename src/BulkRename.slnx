@@ -5,6 +5,7 @@
     <File Path="../README.md" />
     <File Path=".dockerignore" />
     <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
     <File Path="Dockerfile" />
   </Folder>
   <Project Path="BulkRename.IntegrationTests/BulkRename.IntegrationTests.csproj" />
