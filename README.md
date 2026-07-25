@@ -141,16 +141,16 @@ Add here semicolon ';' separated values for folders which should be ignored. QNA
 ## Folder structure
 For the application to recognize the files and rename them correctly, a folder structure must be created according to the following pattern:
 ```
-/Downloads
-  /Files
-    /The Walking Dead (2010)
-      /Season 01
-        twd.s1e01.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
-        twd.s1e02.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
-        twd.s1e03.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
-        twd.s1e04.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
-        twd.s1e05.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
-        twd.s1e06.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+📂 (root)
+ └📂 Files
+   └📂 The Walking Dead (2010)
+     └📂 Season 01
+       └🎞️twd.s1e01.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+       └🎞️twd.s1e02.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+       └🎞️twd.s1e03.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+       └🎞️twd.s1e04.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+       └🎞️twd.s1e05.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
+       └🎞️twd.s1e06.GERMAN.5.1.UNTOUCHED.DUBBED.DL.AC3.1080p.WEB-DL.h264-TvR.mkv
         ...
 ```
 The files must already be sorted by name according to the episode order for the renaming to work correctly. It also supports renaming multiple TV shows and seasons at once, there is no limitation in this regard.
